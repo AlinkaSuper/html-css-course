@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   margin-left: 3em;
   height: 3em;
@@ -58,6 +63,4 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=index.css.map */

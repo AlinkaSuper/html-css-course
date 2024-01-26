@@ -1,0 +1,48 @@
+@import 'layout.scss';
+
+.content {
+    .products {
+        .nav {
+            display: flex;
+            flex: 1;
+            background-color: #ff7f50;
+            min-height: $height;
+        }
+
+        .product-list {
+            display: flex;
+            flex: 1;
+            background-color: #006400;
+            min-height: $height;
+        }
+
+        @include for-medium-screen {
+            & {
+                display: flex;
+                flex: 2;
+            }
+        }
+    }
+
+    .news {
+        display: flex;
+        flex: 1;
+        background-color: #0ff;
+        min-height: $height;
+    }
+
+    span {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: lowercase;
+        background-color: $text-backgroud-color;
+        padding: $unit * 2;
+        margin: auto;
+        border-radius: $unit;
+    }
+
+    @include for-large-screen {
+        & {
+            display: flex;
+        }
+    }
+}
